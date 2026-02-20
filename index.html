@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ccc;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .caption {
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+<h1>My Photo Gallery</h1>
+
+<div class="gallery">
+
+    <div class="gallery-item">
+        <img src="https://picsum.photos/300/200?random=1" alt="Photo 1">
+        <div class="caption">Beautiful Nature</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="https://picsum.photos/300/200?random=2" alt="Photo 2">
+        <div class="caption">Mountain View</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="https://picsum.photos/300/200?random=3" alt="Photo 3">
+        <div class="caption">City Lights</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="https://picsum.photos/300/200?random=4" alt="Photo 4">
+        <div class="caption">Sunset Sky</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="https://picsum.photos/300/200?random=5" alt="Photo 5">
+        <div class="caption">Ocean Breeze</div>
+    </div>
+
+    <div class="gallery-item">
+        <img src="https://picsum.photos/300/200?random=6" alt="Photo 6">
+        <div class="caption">Forest Path</div>
+    </div>
+    <div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=7" alt="Photo 7">
+    <div class="caption">Calm Lake</div>
+</div>
+
+<div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=8" alt="Photo 8">
+    <div class="caption">Green Valley</div>
+</div>
+
+<div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=9" alt="Photo 9">
+    <div class="caption">Snow Mountains</div>
+</div>
+
+<div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=10" alt="Photo 10">
+    <div class="caption">Golden Beach</div>
+</div>
+<div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=11" alt="Photo 11">
+    <div class="caption">River View</div>
+</div>
+
+<div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=12" alt="Photo 12">
+    <div class="caption">Desert Beauty</div>
+</div>
+
+<div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=13" alt="Photo 13">
+    <div class="caption">Colorful Flowers</div>
+</div>
+
+<div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=14" alt="Photo 14">
+    <div class="caption">Night Sky</div>
+</div>
+
+<div class="gallery-item">
+    <img src="https://picsum.photos/300/200?random=15" alt="Photo 15">
+    <div class="caption">Waterfall</div>
+</div>
+
+</div>
+
+</body>
+</html>
